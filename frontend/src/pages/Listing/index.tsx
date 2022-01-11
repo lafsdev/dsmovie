@@ -1,9 +1,9 @@
-import React from 'react'
+import Pagination from "components/Pagination";
 
 export default function Listing() {
-    return (
-        <div>
-            <h1>Página de Listagem</h1>
-        </div>
-    )
+  return (
+    <div>
+      <Pagination />
+    </div>
+  );
 }
